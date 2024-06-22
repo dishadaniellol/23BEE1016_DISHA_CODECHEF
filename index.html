@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-section">
+        <div class="date-container">
+          <div class="date-box-left date-day">02</div>
+          <div class="date-box-right">
+            <div class="date-month">July</div>
+            <div class="date-year">2021</div>
+          </div>
+        </div>
+        <div class="today-container">
+          <h3 class="section-header">TODAY'S DEADLINES</h3>
+          <div id="today-deadlines">
+            <div class="today-item">No deadlines today</div>
+          </div>
+        </div>
+        <div class="deadlines-container">
+          <h3 class="section-header">UPCOMING DEADLINES</h3>
+          <div id="upcoming-deadlines">
+            <div class="deadline-item">No upcoming deadlines</div>
+          </div>
+        </div>
+        <div id="deadline-input-container">
+          <input type="text" id="deadline-input" placeholder="Enter deadline" />
+          <button id="add-deadline-button">Add</button>
+        </div>
+      </div>
+      <div class="right-section">
+        <div class="calendar">
+          <div class="calendar-header">
+            <h2 id="current-month-year">June 2024</h2>
+            <div class="arrow-container">
+              <button class="prev-month">&lt;</button>
+              <button class="next-month">&gt;</button>
+            </div>
+          </div>
+          <div class="calendar-days" id="calendar-days">
+            <div class="weekday">Mo</div>
+            <div class="weekday">Tu</div>
+            <div class="weekday">We</div>
+            <div class="weekday">Th</div>
+            <div class="weekday">Fr</div>
+            <div class="weekday">Sa</div>
+            <div class="weekday">Su</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
